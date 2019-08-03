@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuitePartTwo" time="8" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuitePartTwo" tests="1" failures="0" errors="0" time="8" timestamp="2019-08-03 18:25:12" hostname="Hamza - DESKTOP-JRBJHUE" id="Test Suites/TestSuitePartTwo">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Hamza\\Katalon Studio\\ReviewPartOneApiTesting\\Reports\\TestSuitePartTwo\\20190803_182507"/>
+            <property name="logFiles" value="C:\\Users\\Hamza\\Katalon Studio\\ReviewPartOneApiTesting\\Reports\\TestSuitePartTwo\\20190803_182507\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Hamza - DESKTOP-JRBJHUE"/>
+            <property name="hostAddress" value="192.168.1.3"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+        </properties>
+        <testcase name="Test Cases/ApiTestCase" classname="Test Cases/ApiTestCase" status="PASSED">
+            <system-out>2019-08-03 18:25:13 - [TEST_CASE][PASSED] - Test Cases/ApiTestCase: Test Cases/ApiTestCase&#xD;
+&#xD;
+2019-08-03 18:25:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PartTwo/1-Request")): Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:17 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\ReviewPartOneApiTesting\Reports\TestSuitePartTwo\20190803_182507\requests\main\0.har&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - println(verifyElementPropertyValue(response, "data[0].email", "eve.holt@reqres.in")): Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - println(verifyElementsCount(response, "data", 3)): Verify element count successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Verify element count successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - println(verifyResponseStatusCode(response, 200)): Verify response status code successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - println(verifyResponseStatusCodeInRange(response, 200, 410)): Verify response status code successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - responseTwo = sendRequest(findTestObject("PartTwo/2-Request")): Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\ReviewPartOneApiTesting\Reports\TestSuitePartTwo\20190803_182507\requests\main\1.har&#xD;
+&#xD;
+2019-08-03 18:25:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:18 - [TEST_STEP][PASSED] - println(verifyElementPropertyValue(responseTwo, "name", "Hamza")): Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [TEST_STEP][PASSED] - responseThree = sendRequest(findTestObject("PartTwo/3-Request")): Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\ReviewPartOneApiTesting\Reports\TestSuitePartTwo\20190803_182507\requests\main\2.har&#xD;
+&#xD;
+2019-08-03 18:25:19 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [TEST_STEP][PASSED] - println(verifyElementPropertyValue(responseThree, "name", "Hamza")): Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:19 - [TEST_STEP][PASSED] - responseFour = sendRequest(findTestObject("PartTwo/4-Request")): Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:20 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\ReviewPartOneApiTesting\Reports\TestSuitePartTwo\20190803_182507\requests\main\3.har&#xD;
+&#xD;
+2019-08-03 18:25:20 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:20 - [TEST_STEP][PASSED] - println(verifyElementPropertyValue(responseFour, "job", "QA analyst")): Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:20 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-08-03 18:25:20 - [TEST_STEP][PASSED] - responseFive = sendRequest(findTestObject("PartTwo/5-Request")): Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:21 - [MESSAGE][INFO] - HAR: C:\Users\Hamza\Katalon Studio\ReviewPartOneApiTesting\Reports\TestSuitePartTwo\20190803_182507\requests\main\4.har&#xD;
+&#xD;
+2019-08-03 18:25:21 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-08-03 18:25:21 - [TEST_STEP][PASSED] - println(verifyResponseStatusCodeInRange(responseFive, 200, 410)): Verify response status code successfully&#xD;
+&#xD;
+2019-08-03 18:25:21 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-03 18:25:12 - [TEST_SUITE][INCOMPLETE] - TestSuitePartTwo: null</system-out>
+        <system-err>2019-08-03 18:25:12 - [TEST_SUITE][INCOMPLETE] - TestSuitePartTwo: null</system-err>
+    </testsuite>
+</testsuites>

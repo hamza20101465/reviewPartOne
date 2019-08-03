@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitePartOne,,,,2019-08-03 18:19:43,2019-08-03 18:19:53,9.749s,INCOMPLETE
+,,,,,,,
+Test Cases/SoapTestCase,,,,2019-08-03 18:19:44,2019-08-03 18:19:53,8.833s,PASSED
+"response = sendRequest(findTestObject(""PartOne/1-Request - Add""))",,,,2019-08-03 18:19:46,2019-08-03 18:19:51,5.020s,PASSED
+"println(verifyElementPropertyValue(response, ""AddResponse.AddResult"", ""320""))",,,,2019-08-03 18:19:51,2019-08-03 18:19:51,0.475s,PASSED
+"responseTwo = sendRequest(findTestObject(""PartOne/2-Request-Divide""))",,,,2019-08-03 18:19:51,2019-08-03 18:19:52,0.617s,PASSED
+"println(verifyElementPropertyValue(responseTwo, ""DivideResponse.DivideResult"", ""10""))",,,,2019-08-03 18:19:52,2019-08-03 18:19:52,0.101s,PASSED
+"responseThree = sendRequest(findTestObject(""PartOne/3-Request-multiply""))",,,,2019-08-03 18:19:52,2019-08-03 18:19:52,0.525s,PASSED
+"println(verifyElementPropertyValue(responseThree, ""MultiplyResponse.MultiplyResult"", ""10""))",,,,2019-08-03 18:19:52,2019-08-03 18:19:52,0.066s,PASSED
+"responseFour = sendRequest(findTestObject(""PartOne/3-Request-Substract""))",,,,2019-08-03 18:19:52,2019-08-03 18:19:53,0.546s,PASSED
+"verifyElementPropertyValue(responseFour, ""SubtractResponse.SubtractResult"", ""10"")",,,,2019-08-03 18:19:53,2019-08-03 18:19:53,0.059s,PASSED
+"println(verifyElementText(responseFour, ""SubtractResponse.SubtractResult"", ""10""))",,,,2019-08-03 18:19:53,2019-08-03 18:19:53,0.125s,PASSED

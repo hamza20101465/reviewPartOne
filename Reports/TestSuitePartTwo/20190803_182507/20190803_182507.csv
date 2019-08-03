@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitePartTwo,,,,2019-08-03 18:25:12,2019-08-03 18:25:21,8.562s,INCOMPLETE
+,,,,,,,
+Test Cases/ApiTestCase,,,,2019-08-03 18:25:13,2019-08-03 18:25:21,7.920s,PASSED
+"response = sendRequest(findTestObject(""PartTwo/1-Request""))",,,,2019-08-03 18:25:13,2019-08-03 18:25:18,4.040s,PASSED
+"println(verifyElementPropertyValue(response, ""data[0].email"", ""eve.holt@reqres.in""))",,,,2019-08-03 18:25:18,2019-08-03 18:25:18,0.144s,PASSED
+"println(verifyElementsCount(response, ""data"", 3))",,,,2019-08-03 18:25:18,2019-08-03 18:25:18,0.074s,PASSED
+"println(verifyResponseStatusCode(response, 200))",,,,2019-08-03 18:25:18,2019-08-03 18:25:18,0.025s,PASSED
+"println(verifyResponseStatusCodeInRange(response, 200, 410))",,,,2019-08-03 18:25:18,2019-08-03 18:25:18,0.039s,PASSED
+"responseTwo = sendRequest(findTestObject(""PartTwo/2-Request""))",,,,2019-08-03 18:25:18,2019-08-03 18:25:18,0.677s,PASSED
+"println(verifyElementPropertyValue(responseTwo, ""name"", ""Hamza""))",,,,2019-08-03 18:25:18,2019-08-03 18:25:19,0.046s,PASSED
+"responseThree = sendRequest(findTestObject(""PartTwo/3-Request""))",,,,2019-08-03 18:25:19,2019-08-03 18:25:19,0.476s,PASSED
+"println(verifyElementPropertyValue(responseThree, ""name"", ""Hamza""))",,,,2019-08-03 18:25:19,2019-08-03 18:25:19,0.063s,PASSED
+"responseFour = sendRequest(findTestObject(""PartTwo/4-Request""))",,,,2019-08-03 18:25:19,2019-08-03 18:25:20,0.545s,PASSED
+"println(verifyElementPropertyValue(responseFour, ""job"", ""QA analyst""))",,,,2019-08-03 18:25:20,2019-08-03 18:25:20,0.054s,PASSED
+"responseFive = sendRequest(findTestObject(""PartTwo/5-Request""))",,,,2019-08-03 18:25:20,2019-08-03 18:25:21,1.007s,PASSED
+"println(verifyResponseStatusCodeInRange(responseFive, 200, 410))",,,,2019-08-03 18:25:21,2019-08-03 18:25:21,0.005s,PASSED

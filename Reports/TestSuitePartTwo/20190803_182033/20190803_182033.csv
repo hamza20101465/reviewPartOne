@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuitePartTwo,,,,2019-08-03 18:20:38,2019-08-03 18:20:45,6.613s,INCOMPLETE
+,,,,,,,
+Test Cases/ApiTestCase,,,,2019-08-03 18:20:39,2019-08-03 18:20:45,5.963s,FAILED
+"response = sendRequest(findTestObject(""PartTwo/1-Request""))",,,,2019-08-03 18:20:40,2019-08-03 18:20:44,4.017s,PASSED
+"println(verifyElementPropertyValue(response, ""data[0].email"", ""eve.holt@reqres.in""))",,,,2019-08-03 18:20:44,2019-08-03 18:20:44,0.235s,PASSED
+"println(verifyElementsCount(response, ""data"", 3))",,,,2019-08-03 18:20:44,2019-08-03 18:20:44,0.074s,PASSED
+"println(verifyResponseStatusCode(response, 200))",,,,2019-08-03 18:20:44,2019-08-03 18:20:44,0.058s,PASSED
+"println(verifyResponseStatusCodeInRange(response, 200, 410))",,,,2019-08-03 18:20:44,2019-08-03 18:20:44,0.041s,PASSED
+"sendRequest(findTestObject(""PartTwo/2-Request""))",,,,2019-08-03 18:20:44,2019-08-03 18:20:45,0.544s,PASSED
+"println(verifyElementPropertyValue(response, ""name"", ""morpheus""))",,,,2019-08-03 18:20:45,2019-08-03 18:20:45,0.122s,FAILED
